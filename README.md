@@ -25,3 +25,5 @@ WHEN I refresh the page
 THEN the saved events persist  
 
 ![image](https://user-images.githubusercontent.com/126404917/230795164-90f6bfeb-1f66-4329-9302-58c991b3d4fe.png)
+
+Page deployed: https://cml120.github.io/Work-Day-Scheduler/

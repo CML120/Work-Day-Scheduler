@@ -61,3 +61,11 @@ $(".time-block").each(function () {
         $(this).removeClass("future");
     }
 })
+
+$(".saveBtn").click(function (event) {
+    event.preventDefault();
+    var strInput = $(this).siblings(".description").val();
+    var time = $(this).parent().attr("id");
+
+    localStorage.setItem(time, strInput);
+  });
